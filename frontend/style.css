@@ -31,16 +31,17 @@ hr {
 }
 
 .game {
-    display: grid;
-    grid-template-columns:
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;    
     
 }
 
 .game button {
-    width:100px;
+
+    width: 100px;
     height: 100px;
     margin: 5px;
     cursor: pointer;
     font-size: 50px;
-    background: #f7f7f7;
+    background-color:white
 }
